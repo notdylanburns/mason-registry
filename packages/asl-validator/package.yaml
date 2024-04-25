@@ -1,0 +1,18 @@
+---
+name: asl-validator
+description: |
+  A simple Amazon States Language validator based on JSON schemas. It also validates JSON paths syntax in InputPath,
+  OutputPath and ResultPath. When writing your state machine (for AWS step functions), you can't locally validate you
+  state machine definition without creating it. asl-validator makes it possible.
+homepage: https://github.com/ChristopheBougere/asl-validator
+licenses:
+  - Apache-2.0
+languages: []
+categories:
+  - Linter
+
+source:
+  id: pkg:npm/asl-validator@3.8.2
+
+bin:
+  asl-validator: npm:asl-validator
